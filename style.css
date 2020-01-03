@@ -1,0 +1,75 @@
+body {
+    background: url(./question.jpg);
+}
+#titulo {
+    text-align: center;
+    background: rgba(0, 255, 255, 0.473);
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 5vw;
+}
+#form-preg {
+    align-content: center;
+    display: flex;
+    background: rgba(131, 46, 46, 0.438);
+    margin: 10vw;
+    height: 30vh;
+    width: 75vw;
+}
+.preg {
+    background: rgba(67, 96, 139, 0.281);
+
+    margin-top: 6vh;
+    width: 14vw;
+    height: 15vh;
+}
+.labels {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 2vw;
+}
+#save {
+    background: rgba(255, 255, 0, 0.61);
+}
+#save:hover {
+    background: rgba(255, 255, 0, 0.822);
+}
+#content-link {
+    background: rgba(0, 255, 255, 0.473);
+}
+#reload-a {
+    text-decoration: none;
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 3vw;
+    margin: 37vw;
+    color: rgba(0, 0, 0, 0.788);
+}
+#reload-a:hover {
+    color: black;
+}
+#play-a {
+    text-decoration: none;
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 3.5vw;
+    margin: 40vw;
+    color: rgba(0, 0, 0, 0.788);
+
+}
+#play-a:hover {
+    color: black;
+}
+#respuestas {
+    background: green;
+
+}
+#pregunta {
+    background: violet;
+    text-align: center;
+}
+.preguntas {
+    background: yellow;
+    display: inline-block;
+    border: 1px violet solid;
+    margin: 1vw;
+}
+.ps {
+    border: 1px red solid;
+}
